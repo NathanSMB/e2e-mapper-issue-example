@@ -63,6 +63,7 @@
       "<rootDir>/libs/"
     ],
     "moduleNameMapper": {
+      "@lib/testlib": "<rootDir>/libs/testlib/src",
       "@lib/testlib/(.*)": "<rootDir>/libs/testlib/src/$1"
     }
   }
